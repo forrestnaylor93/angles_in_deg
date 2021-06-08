@@ -1,0 +1,93 @@
+.banner {
+    margin-top:2vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    width: 100vw;
+    max-width: 1000px;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 2vh;
+
+
+}
+
+.bannerTitle {
+    font-family: 'Lato', sans-serif;;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+}
+
+.bannerSubtitle{
+    text-align: right;
+}
+
+.bannerSubtitle a{
+    font-size: 16px;
+    text-align: right;
+    color: rgba(119, 73, 54, 1);
+}
+
+
+.dualImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    background-color: white;
+}
+
+body {
+    overflow-x: hidden ;
+    width: 100%
+}
+
+.dualImgContainer img, .dualImgContainer ul{
+    max-width:90%;
+    max-height: 40vh;
+}
+
+.dualImgContainer ul{
+    padding-left: 5vw;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+.dualImgContainer p{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 200%;
+    font-size: 1.4rem;
+    max-width:90%;
+}
+
+/* buttons */
+button{
+    display:block;
+    clear:both;
+    color:rgba(33, 61, 31, 1);
+    background-color:white;
+    font-size: 20px;
+    border: solid 2px rgba(33, 61, 31, 1);
+    padding:2vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    transition: all ease-in 0.3s;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    background-color: rgba(33, 61, 31, 1);
+    color: rgba(235, 228, 241, 1);
+}
+
+
+.arrow{
+    font-weight: bolder;
+}

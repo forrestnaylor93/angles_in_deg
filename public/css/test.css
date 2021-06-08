@@ -1,0 +1,35 @@
+/* Fonts */
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+
+/* colors */
+
+/* SCSS RGB */
+
+/* $forest-green-traditional: rgba(33, 61, 31, 1);
+$thistle: rgba(235, 228, 241, 1);
+$sage: rgba(170, 174, 127, 1);
+$coffee: rgba(119, 73, 54, 1);
+$black-bean: rgba(60, 0, 0, 1); */
+
+
+/* https://coolors.co/323031-3d3b3c-e9f5fd-a3c3d9-a6ffa1 */
+
+.idea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    background-color: white;
+}
+
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+    position: relative
+}
+

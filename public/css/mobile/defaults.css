@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(235, 228, 241, 1); */
+    /* color:rgba(235, 228, 241, 1); */
+    color: rgb(98, 94, 104);
+    font-family: 'Lato', sans-serif;
+    overflow-x:hidden;
+}
+
+body{
+    background-color:rgba(235, 228, 241, 1); 
+    color: rgb(55, 52, 59);
+}
+
+body {
+    overflow-x: hidden !important;
+    width: 100%
+}
+
+
+/* sets title classes to Montserrat */
+.title{
+    font-family: 'Lato', sans-serif; 
+    letter-spacing:3px;
+    color:rgba(235, 228, 241, 1); 
+}
+
+.visible-on-entry{
+    min-height: 100vh;
+}
